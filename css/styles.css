@@ -1,0 +1,172 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #f5f7fa;
+  font-family: Montserrat;
+  padding: 40px;
+}
+
+.main-container {
+  background-color: #fff;
+  display: flex;
+  min-width: 1200px;
+}
+
+.sidebar {
+  background-color: #1e2939;
+  min-width: 370px;
+  max-width: 370px;
+  padding: 40px 0 40px;
+}
+
+.sidebar > .photo {
+  width: 100%;
+}
+
+.sidebar-container {
+  padding: 60px 40px 0;
+  color: #fff;
+}
+
+.sidebar-container.sidebar-container-tech-skills {
+  padding-top: 55px;
+}
+
+.sidebar-container .sidebar-container-title {
+  font-size: 22px;
+  font-style: normal;
+  margin-bottom: 10px;
+}
+
+.sidebar-container .contacts-link-type {
+  font-weight: 700;
+  margin-right: 10px;
+}
+
+.sidebar-container a {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.sidebar-container .sidebar-block-phone a {
+  text-decoration: none;
+}
+
+.sidebar-block,
+.about-me-block {
+  font-size: 14px;
+  letter-spacing: 0.42px;
+  line-height: 24px;
+}
+
+ul.sidebar-block,
+.about-me-block ul,
+.about-me-block ol {
+  padding-left: 16px;
+}
+
+ul.sidebar-block .list-item {
+  color: #d0d5d8;
+}
+
+ul.sidebar-block .list-item::marker {
+  color: #ff6b08;
+}
+
+.about-me-container {
+  padding: 110px 90px;
+}
+
+.about-me-title p.name {
+  font-size: 45px;
+  line-height: 24px;
+  margin: 24px 0;
+}
+
+.about-me-title p.profession {
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.about-me-description {
+  width: 415px;
+}
+
+.about-me-block {
+  margin-top: 55px;
+}
+
+.about-me-block .list-item,
+.about-me-block .list-item a,
+.about-me-block .list-item .technology span {
+  color: #595959;
+  font-weight: 400;
+  letter-spacing: 0.42px;
+}
+
+.about-me-block .list-item a {
+  text-decoration: none;
+}
+
+.about-me-block ol .list-item::marker,
+.about-me-block .list-item .technology {
+  color: #000;
+  font-weight: 700;
+}
+
+.about-me-block-title {
+  font-size: 22px;
+  line-height: 24px;
+  margin-bottom: 12px;
+}
+
+.experience-block,
+.education-block {
+  font-size: 14px;
+  letter-spacing: 0.48px;
+  line-height: 24px;
+  margin-bottom: 24px;
+  width: 535px;
+}
+
+.job-title {
+  font-size: 16px;
+}
+
+.job-title .company {
+  color: #ff6b08;
+}
+
+.job-period,
+.education-period {
+  color: #a8a8a8;
+  font-size: 12px;
+  letter-spacing: 0.36px;
+  display: flex;
+  align-items: center;
+}
+
+.about-me-block .separator {
+  background-color: #000;
+  height: 14px;
+  width: 1px;
+  display: inline-block;
+  margin: 0 8px;
+}
+
+.education-block {
+  line-height: 24px;
+}
+
+.education-place {
+  color: #ff6b08;
+  font-size: 16px;
+  letter-spacing: 0.48px;
+}
+
+.education-speciality {
+  font-size: 14px;
+  letter-spacing: 0.42px;
+}
